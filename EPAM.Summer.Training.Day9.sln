@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{5E5A45C7-9379-4E51-A638-41A677F66E2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsMemoryzation", "WordsMemoryzation\WordsMemoryzation.csproj", "{D2165CF4-D1AD-49F3-B92D-4C458D93621F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCounterTests", "WordCounterTests\WordCounterTests.csproj", "{4F3C5219-9F17-4512-A2DE-7F5B14FE0690}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2165CF4-D1AD-49F3-B92D-4C458D93621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2165CF4-D1AD-49F3-B92D-4C458D93621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2165CF4-D1AD-49F3-B92D-4C458D93621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2165CF4-D1AD-49F3-B92D-4C458D93621F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3C5219-9F17-4512-A2DE-7F5B14FE0690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3C5219-9F17-4512-A2DE-7F5B14FE0690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3C5219-9F17-4512-A2DE-7F5B14FE0690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3C5219-9F17-4512-A2DE-7F5B14FE0690}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2165CF4-D1AD-49F3-B92D-4C458D93621F} = {5E5A45C7-9379-4E51-A638-41A677F66E2E}
+		{4F3C5219-9F17-4512-A2DE-7F5B14FE0690} = {5E5A45C7-9379-4E51-A638-41A677F66E2E}
+	EndGlobalSection
+EndGlobal
