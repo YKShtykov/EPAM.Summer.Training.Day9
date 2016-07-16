@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerLogic", "TimerLogic\Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerCUI", "TimerCUI\TimerCUI.csproj", "{F34BC36F-A3B6-433F-AD6F-6DDAF4BF8310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchLogic", "BinarySearchLogic\BinarySearchLogic.csproj", "{6DA960AD-EC92-42A9-B4B4-B0CD2CA9FD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchLogicTests", "BinarySearchLogicTests\BinarySearchLogicTests.csproj", "{465B79E0-588A-43B3-A96F-4F4C8A05459D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{F34BC36F-A3B6-433F-AD6F-6DDAF4BF8310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F34BC36F-A3B6-433F-AD6F-6DDAF4BF8310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F34BC36F-A3B6-433F-AD6F-6DDAF4BF8310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA960AD-EC92-42A9-B4B4-B0CD2CA9FD26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA960AD-EC92-42A9-B4B4-B0CD2CA9FD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA960AD-EC92-42A9-B4B4-B0CD2CA9FD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA960AD-EC92-42A9-B4B4-B0CD2CA9FD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{465B79E0-588A-43B3-A96F-4F4C8A05459D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{465B79E0-588A-43B3-A96F-4F4C8A05459D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{465B79E0-588A-43B3-A96F-4F4C8A05459D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{465B79E0-588A-43B3-A96F-4F4C8A05459D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
