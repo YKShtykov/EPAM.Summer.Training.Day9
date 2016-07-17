@@ -1,5 +1,8 @@
 ﻿using System;
 using TimerLogic;
+using BookStorageLogic;
+using System.Collections.Generic;
+using NLog;
 
 namespace TimerCUI
 {
@@ -55,6 +58,20 @@ namespace TimerCUI
   {
     static void Main(string[] args)
     {
+      BookListService books = new BookListService();
+      books.AddBook(new Book("Tolstoy", "War and peace", 1247, 40));
+      books.AddBook(new Book("Rihter", "C# via CLR", 880, 30));
+
+      BinaryBookListStorage bookStorage = new BinaryBookListStorage();
+      bookStorage.SaveBooks(books);
+      List<Book> bookList = bookStorage.LoadBooks();
+
+      foreach (var item in bookList)
+      {
+        Console.WriteLine(item.ToString()); 
+      }
+      Console.ReadKey();
+
       Timer timer = new Timer();
       FirstSubscriber first = new FirstSubscriber(timer);
       SecondSubscriber second = new SecondSubscriber(timer);
