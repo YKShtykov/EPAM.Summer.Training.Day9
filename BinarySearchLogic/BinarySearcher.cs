@@ -13,8 +13,7 @@ namespace BinarySearchLogic
     /// <param name="array"></param>
     /// <param name="searchedElement"></param>
     /// <returns>number of searched element in array or -1 if array has no the element</returns>
-    public static int BinarySearch(object[] array,
-                            object searchedElement)
+    public static int BinarySearch<T>(T[] array,T searchedElement)
     {
       return BinarySearch(array, searchedElement, DefaultComparision);
     }
@@ -26,8 +25,8 @@ namespace BinarySearchLogic
     /// <param name="comparer"></param>
     /// <returns>number of searched element in array or -1 if array has no the element</returns>
     public static int BinarySearch<T>(T[] array,
-                            T searchedElement,
-                            Comparison<T> comparer)
+                                      T searchedElement,
+                                      Comparison<T> comparer)
     {
       if (ReferenceEquals(array, null)) throw new ArgumentException();
       if (ReferenceEquals(searchedElement, null)) return -1;
@@ -63,7 +62,7 @@ namespace BinarySearchLogic
     /// <param name="lhs"></param>
     /// <param name="rhs"></param>
     /// <returns></returns>
-    private static int DefaultComparision(object lhs, object rhs)
+    private static int DefaultComparision<T>(T lhs,T rhs)
     {
       return lhs.GetHashCode().CompareTo(rhs.GetHashCode());
     }

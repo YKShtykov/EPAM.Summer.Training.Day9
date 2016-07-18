@@ -58,6 +58,8 @@ namespace TimerCUI
   {
     static void Main(string[] args)
     {
+      Logger logger = LogManager.GetCurrentClassLogger();
+      logger.Info("program started");
       BookListService books = new BookListService();
       books.AddBook(new Book("Tolstoy", "War and peace", 1247, 40));
       books.AddBook(new Book("Rihter", "C# via CLR", 880, 30));
@@ -68,7 +70,7 @@ namespace TimerCUI
 
       foreach (var item in bookList)
       {
-        Console.WriteLine(item.ToString()); 
+        Console.WriteLine(item.ToString());
       }
       Console.ReadKey();
 

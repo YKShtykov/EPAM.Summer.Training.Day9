@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryBookListStorage.cs" />
+    <Compile Include="Book.cs" />
     <Compile Include="BookListService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
